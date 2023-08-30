@@ -130,8 +130,8 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="README.txt">
+    <None Include="README.md">
       <Filter>src</Filter>
-    </Text>
+    </None>
   </ItemGroup>
 </Project>

@@ -4,13 +4,7 @@ So you can analyze and use it freely.
 (and a quack made it 👀)
 
 
-
-* "file structure"
-- test.sln
-- test/...(src, include...)
-
-
-
-* "Task" (This part must be created by you)
-- rigidbody (phsics func) (rigidbody.hpp)
-- overlap remove (collider.hpp)
+* Task (This part must be created by you)
+- *unzip include.zip*
+- *rigidbody* (phsics func) (rigidbody.hpp)
+- *overlap remove* (collider.hpp)
