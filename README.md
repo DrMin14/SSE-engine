@@ -4,7 +4,7 @@ So you can analyze and use it freely.
 (and a quack made it 👀)
 
 file structure
-/ main folder
+: main folder
 /  test.sln, test
 / src(src code raw)
 , include
