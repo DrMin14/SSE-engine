@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="camera.cpp">
+      <Filter>base\obj\camera</Filter>
+    </ClCompile>
+    <ClCompile Include="event.cpp">
+      <Filter>base\obj\event</Filter>
+    </ClCompile>
+    <ClCompile Include="timer.cpp">
+      <Filter>base\obj\timer</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithm.cpp">
+      <Filter>base\func\alg</Filter>
+    </ClCompile>
+    <ClCompile Include="speaker.cpp">
+      <Filter>base\obj\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="mesh.cpp">
+      <Filter>base\obj\component\components\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="collider.cpp">
+      <Filter>base\obj\component\components\collider</Filter>
+    </ClCompile>
+    <ClCompile Include="component.cpp">
+      <Filter>base\obj\component</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="sdl_h.hpp">
+      <Filter>base\func</Filter>
+    </ClInclude>
+    <ClInclude Include="base.hpp">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="ms_code.hpp">
+      <Filter>base\obj\event\enum</Filter>
+    </ClInclude>
+    <ClInclude Include="kb_code.hpp">
+      <Filter>base\obj\event\enum</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.hpp">
+      <Filter>base\obj\camera</Filter>
+    </ClInclude>
+    <ClInclude Include="event.hpp">
+      <Filter>base\obj\event</Filter>
+    </ClInclude>
+    <ClInclude Include="object.hpp">
+      <Filter>base\obj\object</Filter>
+    </ClInclude>
+    <ClInclude Include="timer.hpp">
+      <Filter>base\obj\timer</Filter>
+    </ClInclude>
+    <ClInclude Include="component.hpp">
+      <Filter>base\obj\component</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithm.hpp">
+      <Filter>base\func\alg</Filter>
+    </ClInclude>
+    <ClInclude Include="speaker.hpp">
+      <Filter>base\obj\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="transform.hpp">
+      <Filter>base\obj\component\components\transform</Filter>
+    </ClInclude>
+    <ClInclude Include="mesh.hpp">
+      <Filter>base\obj\component\components\mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="collider.hpp">
+      <Filter>base\obj\component\components\collider</Filter>
+    </ClInclude>
+    <ClInclude Include="rigidbody.hpp">
+      <Filter>base\obj\component\components\rigidbody</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="base">
+      <UniqueIdentifier>{f8926d93-b1eb-49ae-83fc-83cc67352215}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{1a33313e-c449-482a-9f40-f75f962216a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\func">
+      <UniqueIdentifier>{e4b8f3a4-2f3f-4be5-ae75-db18bd373698}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\obj">
+      <UniqueIdentifier>{fbef5a83-307e-4057-8761-7ad567b9979c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\obj\camera">
+      <UniqueIdentifier>{1f6e3b5d-546e-4380-bef7-cab5986f5a33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\obj\event">
+      <UniqueIdentifier>{e2a68ac5-e1cf-40bc-96e2-35ae5bb1e198}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\obj\event\enum">
+      <UniqueIdentifier>{564b4dc3-5f3f-45bb-b1b3-b5b5e2f6c635}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\obj\object">
+      <UniqueIdentifier>{db870131-531c-49dc-b4b3-ccd63fa02f6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\obj\timer">
+      <UniqueIdentifier>{576d11cc-9955-4470-9bae-7a50ff35a01b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\obj\component">
+      <UniqueIdentifier>{0823eb6f-3778-4089-bd28-0585aed6627f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\func\alg">
+      <UniqueIdentifier>{a9388c88-8f5e-4b07-a365-91d7ec72c347}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\obj\audio">
+      <UniqueIdentifier>{b71e2a36-b0c4-4885-b788-7dbdabe6aed6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\obj\component\components">
+      <UniqueIdentifier>{18fc8466-6c60-4a5d-863f-48f9aa57870b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\obj\component\components\rigidbody">
+      <UniqueIdentifier>{07e40ce4-36df-4046-88dd-643fd7e655b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\obj\component\components\transform">
+      <UniqueIdentifier>{5754928d-0ef8-4c4e-80a0-5a74e0e4362c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\obj\component\components\collider">
+      <UniqueIdentifier>{a75d2088-56c6-46d5-8050-06602f63bad9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\obj\component\components\mesh">
+      <UniqueIdentifier>{3e0f1198-3197-4db5-a222-9f6d057eff85}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="README.txt">
+      <Filter>src</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
