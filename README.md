@@ -6,7 +6,7 @@ So you can analyze and use it freely.
 file structure
 / main folder
 /  test.sln, test
-, src(src code raw)
+/ src(src code raw)
 , include
 , lib
 , img
