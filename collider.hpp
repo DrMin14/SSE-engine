@@ -24,7 +24,7 @@ public:
 					* colliders[i]->transform->scale.y
 				, colliders[i]->bounding_box.w * colliders[i]->transform->scale.x
 				, colliders[i]->bounding_box.h * colliders[i]->transform->scale.y };
-			for (int j = i; colliders.size() > j; ++j)
+			for (int j = i + 1; colliders.size() > j; ++j)
 			{
 				frect_t m = { 
 					  colliders[j]->transform->position.x 
