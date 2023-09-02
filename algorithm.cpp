@@ -23,14 +23,14 @@ check_colision(
     if (max_y <= other_min_y || min_y >= other_max_y) /**<y-axis check*/
         return 0;
 
-    /**°ãÄ§ °è»ê*/
+    /**ê²¹ì¹¨ ê³„ì‚°*/
     float overlap_x = std::min(max_x, other_max_x) - std::max(min_x, other_min_x);
-    float overlap_y = std::min(max_x, other_max_y) - std::max(min_y, other_min_y);
+    float overlap_y = std::min(max_y, other_max_y) - std::max(min_y, other_min_y);
 
-    if (nullptr != _overlap) /**¿À¹ö·¾*/
+    if (nullptr != _overlap) /**ì˜¤ë²„ë ™*/
         *_overlap = { overlap_x, overlap_y };
 
-    /**°ãÄ§ ¹æÇâ ÃøÁ¤*/
+    /**ê²¹ì¹¨ ë°©í–¥ ì¸¡ì •*/
     if (overlap_x < overlap_y)      /**<horizontal collision*/
     {
         if (min_x < other_min_x)
