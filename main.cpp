@@ -103,16 +103,20 @@ main(int argc, char* argv[])
 	{
 		t.update();
 		ev.poll();
-		
+
+
 		for (auto& o : objs)
 		{
 			for (auto& c : o->component)
 				c->update();
 			for (auto& c : o->component)
 				c->after();
-
-			collider_t::global_collision_test();
-
+		}
+		
+		collider_t::global_collision_test();
+		
+		for (auto& o : objs)
+		{
 			if (nullptr != o->mesh)
 				o->mesh->draw(cam);
 		}
