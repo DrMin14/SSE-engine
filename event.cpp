@@ -24,7 +24,7 @@ event_t::_input_process()
 	{
 	case SDL_KEYDOWN:
 		key = &kb[SDL_GetScancodeFromKey(m_event.key.keysym.sym)];
-		*key = input_state::down;
+		if (!*key) *key = input_state::down; // unknown cause: return DOWN state when press long time
 		break;
 	case SDL_KEYUP:
 		key = &kb[SDL_GetScancodeFromKey(m_event.key.keysym.sym)];
