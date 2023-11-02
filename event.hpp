@@ -17,6 +17,13 @@ namespace input_state
 	}input_state;
 }
 
+/** This class is created for demonstration purposes. 
+ * To become a better programmer, it's recommended 
+ * to research SDL event functions 
+ * and the operating system's event queue processing. 
+ * For example, you can explore functions 
+ * like SDL_GetKeyboardState.
+ */
 class event_t
 {
 private:
