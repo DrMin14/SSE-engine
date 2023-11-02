@@ -25,10 +25,11 @@ event_t::_input_process()
 	case SDL_KEYDOWN:
 		key = &kb[SDL_GetScancodeFromKey(m_event.key.keysym.sym)];
 		/** An unknown issue is causing the DOWN state 
-  		 * to be returned when a key is pressed for a long time. 
-		 * This might be due to the same issue as the Win32 API's keydown event.
+  		 * to be returned when a key is pressed for a second. 
+		 * This might be due to the same issue as the Win32 API's keydown event. 
+		 * try modify! -w-b
 		 */
-		if (!*key) *key = input_state::down; 
+		*key = input_state::down; 
 		break;
 	case SDL_KEYUP:
 		key = &kb[SDL_GetScancodeFromKey(m_event.key.keysym.sym)];
